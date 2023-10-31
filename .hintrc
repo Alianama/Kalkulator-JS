@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "development"
+  ],
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not ios_saf <= 17",
+    "not safari <= 17"
+  ],
+  "hints": {
+    "meta-viewport": "off",
+    "axe/forms": "off",
+    "axe/parsing": "off"
+  }
+}
