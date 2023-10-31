@@ -11,6 +11,6 @@ function display(value) {
 // This function evaluates the expression and returns the result
 function calculate() {
   var a = document.getElementById("result").value;
-  var b = hasil(a);
+  var b = eval(a);
   document.getElementById("result").value = b;
 }
